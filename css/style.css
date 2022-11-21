@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: hsl(225deg, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
@@ -129,6 +130,7 @@ body {
 .card .info .plan .link a:first-child:hover {
   text-decoration: none;
   color: hsla(245deg, 75%, 52%, 0.8);
+  transition: all 0.4s ease-out;
 }
 .card .info .btn {
   display: flex;
@@ -150,6 +152,7 @@ body {
 }
 .card .info .btn:hover {
   background: hsla(245deg, 75%, 52%, 0.8);
+  transition: all 0.4s ease-out;
 }
 .card .info a:last-child {
   font-weight: 700;
@@ -159,6 +162,7 @@ body {
 }
 .card .info a:last-child:hover {
   color: #1f2f56;
+  transition: all 0.4s ease-out;
 }
 
 @media screen and (max-width: 550px) {
