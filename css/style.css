@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/pattern-background-desktop.svg");
+  background-image: url("../images/pattern-background-desktop.svg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vw 48.6vh;
@@ -163,7 +163,7 @@ body {
 
 @media screen and (max-width: 550px) {
   .container {
-    background-image: url("/images/pattern-background-mobile.svg");
+    background-image: url("../images/pattern-background-mobile.svg");
   }
   .card {
     max-width: 325px;
